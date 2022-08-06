@@ -43,9 +43,6 @@ print("З А Г Р У З К А....")
 time.sleep(3.5)
 os.system("clear")
 
-def title():
-    os.system("title ...:: XMLRPC PingBack DDoS ::... ")
-    os.system("color a")
     print ("""-------------------------------------------------------------------------\n
 \tXML-RPC PingBack API Remote DDoS
 \tDate : 20/04/2022
