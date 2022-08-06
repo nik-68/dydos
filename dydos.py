@@ -48,9 +48,9 @@ def title():
     os.system("color a")
     print ("""-------------------------------------------------------------------------\n
 \tXML-RPC PingBack API Remote DDoS
-\tDate : 20/04/2014
-\tPython 3.3.3
-\tPython version coded by : Mafiaga\n
+\tDate : 20/04/2022
+\tPython 3.10.5
+\tPython version coded by Mafiaga\n
 --------------------------------------------------------------------------\n\n""")
 
     
