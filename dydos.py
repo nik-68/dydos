@@ -38,6 +38,11 @@ class PingBack(threading.Thread):
             except:
                 print ("Thread %3d | %2d | Connection refused!!" % (self.number, N))
 
+os.system("clear")
+print("З А Г Р У З К А....")
+time.sleep(3.5)
+os.system("clear")
+
 def title():
     os.system("title ...:: XMLRPC PingBack DDoS ::... ")
     os.system("color a")
