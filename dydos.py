@@ -60,8 +60,8 @@ def main():
         print ("Я не могу найти list.txt Для запуска программы вам это необходимо")
         os.system("pause")
         sys.exit(0)
-    num_thread = int(input("Количество потоков: "))
-    url = str(input("Цель: "))
+    num_thread = int(input("Количество потоков: => "))
+    url = str(input("Цель: => "))
     print("\n###############################################")
     for i in range(num_thread):
         PingBack(url, i+1, lista).start()
