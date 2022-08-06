@@ -38,11 +38,17 @@ class PingBack(threading.Thread):
             except:
                 print ("Thread %3d | %2d | Connection refused!!" % (self.number, N))
 
-os.system("clear")
-print("З А Г Р У З К А....")
-time.sleep(3.5)
-os.system("clear")
-    print("""-------------------------------------------------------------------------\n
+
+def title():
+    os.system("title ...:: XMLRPC PingBack DDoS ::... ")
+    os.system("color a")
+
+    os.system("clear")
+    print("З А Г Р У З К А....")
+    time.sleep(3.5)
+    os.system("clear")
+
+    print ("""-------------------------------------------------------------------------\n
 \tXML-RPC PingBack API Remote DDoS
 \tDate : 20/04/2022
 \tPython 3.10.5
